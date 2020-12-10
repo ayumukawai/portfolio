@@ -4,7 +4,11 @@
 }
 
 body{
-    font-family: "Yu Gothic";
+    font-family: "Helvetica Neue",
+                Arial, sans-serif,
+                "Hiragino Kaku Gothic ProN",
+                "Hiragino Sans",
+                Meiryo;
 }
 
 a{
