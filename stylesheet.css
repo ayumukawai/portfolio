@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Yu Gothic";
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: left;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.slide-menu{
+    display: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+header a{
+    color: #FFF;
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 40px;
+    opacity: 0.8;
+}
+
+.header-img{
+    position: relative;
+    background-color: #FFF;
+    text-align: center;
+    height: 120px
+}
+
+.login{
+    position: absolute; top: 10px; right: 0;
+    color: #00155F;
+    font-size: 15px;
+}
+
+.header-list{
+    text-align: center;
+    height: 90px;
+    background-color: #1e00c3;
+    box-shadow: 0 5px #00005F;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.top-wrapper{
+    background-image: url(images/top.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+}
+
+.top-wrapper h1{
+    padding-top: 510px;
+    font-size: 60px;
+    opacity: 0.8;
+}
+
+.top-wrapper h2{
+    font-size: 40px;
+    opacity: 0.8;
+}
+
+.top-wrapper p{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    opacity: 0.8;
+}
+
+.menu-wrapper{
+    background-image: url(images/ULTRAMARINE_white.png);
+    background-size: cover;
+    text-align: center;
+    color: #00155F;
+    padding-bottom: 100px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.category{
+    display: inline-block;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    border-bottom: 2px solid #00155F;
+}
+
+.menu{
+    float: left;
+    padding: 30px 0;
+    width: 25%;
+}
+
+.menu h3{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.menu img{
+    width: 70%;
+}
+
+.menu p{
+    font-size: 25px;
+}
+
+footer{
+    height: 120px;
+    background-color: #007fff;
+    text-align: center;
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 40px;
+    opacity: 0.8;
+}
+
+.login-modal-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+}
+
+.twin-modal{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.close-icon{   
+    text-align: right;
+    margin-right: 150px;
+    opacity: 0.9;
+}
+
+.twin-modal img{
+    width: 5%;
+}
+
+.modal{
+    float: left;
+}
+
+.modal-left{
+    margin-right: 10px;
+    background-color: #1E00C3;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.modal-right{
+    margin-right: 10px;
+    background-color: #007FFF;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+#login-form{
+    width: 100%;
+}
+
+#login-form h2{
+    color: #FFF;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#login-form input{
+    width: 350px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+}
+
+#submit-btn{
+    display: inline-block;
+    padding: 14px 14px;
+    background-color: #fcff65;
+    border: none;
+    border-radius: 5px;
+    color: #00155F;
+    width: 350px;
+    cursor: pointer;
+}

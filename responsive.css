@@ -1,0 +1,162 @@
+@media (max-width: 1024px){
+    .header-img img{
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .top-wrapper h1{
+        padding-top: 570px;
+        opacity: 1;
+    }
+    
+    .top-wrapper h2{
+        opacity: 1;
+    }
+    
+    .top-wrapper p{
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+    .menu{
+        width: 50%;
+    }
+
+    #login-form input{
+        width: 250px;
+    }
+
+    #submit-btn{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 670px){
+    li{
+        list-style-type: none;
+    }
+
+    .header-img img{
+        width: 80%;
+    }
+    
+    .header-img{
+        height: 60px;
+    }
+    
+    .login{
+        display: none;
+    }
+    
+    .header-list{
+        height: 50px;
+    }
+    
+    .menu-icon{
+        display: block;
+    }
+
+    .menu-icon img{
+        position: absolute;
+        top: 38px;
+        right: 0;
+        opacity: 0.9;
+    }
+
+    .menu-icon a{
+        display: block;
+    }
+
+    .slide-menu{
+        display: block;
+        z-index: 100;
+        position: fixed;
+        top: 115px;
+        right: -200px;
+        width: 200px;
+        text-align: center;
+        background-color: #007FFF;
+        opacity: 0.9;
+    }
+
+    .slide-menu li{
+        margin: 10px 0;
+    }
+
+    .slide-menu a{
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    .header-list a{
+        display: none;
+    }
+    
+    .top-wrapper{
+        text-align: left;
+    }
+    
+    .top-wrapper h1{
+        font-size: 45px;
+        padding: 220px 0 20px 10px;
+        opacity: 0.8;
+    }
+    
+    .top-wrapper h2{
+        font-size: 25px;
+        padding-left: 10px;
+        opacity: 0.8;
+    }
+    .top-wrapper p{
+        font-size: 15px;
+        font-weight: normal;
+        padding-left: 10px;
+        padding-bottom: 50px;
+    }
+    
+    .category{
+        font-size: 30px;
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    
+    .menu p{
+        font-size: 20px;
+    }
+    
+    footer a{
+        padding: 0 10px;
+    }
+
+    .twin-modal{
+        position: absolute;
+        left: 5%;
+    }
+
+    .close-icon{
+        margin-right: 25px;
+    }
+
+    .twin-modal img{
+        width: 10%;
+    }
+
+    .modal-left,.modal-right{
+        width: 47%;
+    }
+
+    #login-form h2{
+        font-size: 18px;
+    }
+
+    #login-form input{
+        width: 120px;
+    }
+
+    #submit-btn{
+        width: 120px;
+    }
+}

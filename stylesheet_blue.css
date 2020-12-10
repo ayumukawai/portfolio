@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+.color-top{
+    padding-top: 250px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.list-white{
+    background-image: url(images/ULTRAMARINE_white.png);
+    background-size: cover;
+}
+
+.list-black{
+    background-image: url(images/ULTRAMARINE_black.png);
+    background-size: cover;
+}
+
+.color{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.blue-icon{
+    width: 50%;
+}
+
+.item-icon{
+    width: 75%;
+}
+
+.shop-icon{
+    width: 75%;
+}
+
+.story-icon{
+    width: 80%;
+}
+
+.color-list{
+    flex: auto;
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.color-list p{
+    padding-bottom: 50px;
+}
+
+@media(max-width:1024px){
+    .color{
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .color-list{
+        width: 50%;
+    }
+}
+
+@media(max-width:670px){
+    .color-top{
+        padding-top: 120px;
+        font-size: 10px;
+    }
+
+    .color{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .color-list{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
